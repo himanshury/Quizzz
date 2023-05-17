@@ -32,55 +32,55 @@
         android:textColor="@color/black"
         android:textSize="25sp"
         app:textAllCaps="false" />
+
     <LinearLayout
-        android:layout_marginTop="50dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/Question"
+        android:layout_marginTop="42dp"
         android:orientation="vertical">
 
         <Button
+            android:id="@+id/idBtnOption1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
+            android:background="@color/purple_200"
             android:padding="4dp"
             android:text="Option 1"
-            android:textAllCaps="false"
-            android:id="@+id/idBtnOption1"
-            android:background="@color/purple_200"
-            />
+            android:textAllCaps="false" />
+
         <Button
+            android:id="@+id/idBtnOption2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
+            android:background="@color/purple_200"
             android:padding="4dp"
             android:text="Option 2"
-            android:textAllCaps="false"
-            android:id="@+id/idBtnOption2"
-            android:background="@color/purple_200"
-            />
+            android:textAllCaps="false" />
+
         <Button
+            android:id="@+id/idBtnOption3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
+            android:background="@color/purple_200"
             android:padding="4dp"
             android:text="Option 3"
-            android:textAllCaps="false"
-            android:id="@+id/idBtnOption3"
-            android:background="@color/purple_200"
-            />
+            android:textAllCaps="false" />
+
         <Button
+            android:id="@+id/idBtnOption4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
+            android:background="@color/purple_200"
             android:padding="4dp"
             android:text="Option 4"
-            android:textAllCaps="false"
-            android:id="@+id/idBtnOption4"
-            android:background="@color/purple_200"
-            />
-
+            android:textAllCaps="false" />
 
 
     </LinearLayout>
+
 </RelativeLayout>
